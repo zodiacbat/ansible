@@ -1,6 +1,3 @@
-- name: Hello World Sample
-  hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+- name: return uname -r and redhat-release
+  command: cat /etcredhat-release
+  command: uname -r
